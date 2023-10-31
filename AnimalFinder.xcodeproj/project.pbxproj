@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D18086CC2AF1BCD8009EAC87 /* AnimalImageFinder.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18086CB2AF1BCD7009EAC87 /* AnimalImageFinder.mlmodel */; };
 		D18FECBB2AF1ACFA00CCB736 /* AnimalFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FECBA2AF1ACFA00CCB736 /* AnimalFinderApp.swift */; };
 		D18FECBD2AF1ACFA00CCB736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FECBC2AF1ACFA00CCB736 /* ContentView.swift */; };
 		D18FECBF2AF1AD0300CCB736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18FECBE2AF1AD0300CCB736 /* Assets.xcassets */; };
 		D18FECC22AF1AD0300CCB736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18FECC12AF1AD0300CCB736 /* Preview Assets.xcassets */; };
+		D18FECC92AF1AE3700CCB736 /* DoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FECC82AF1AE3700CCB736 /* DoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D18086CB2AF1BCD7009EAC87 /* AnimalImageFinder.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = AnimalImageFinder.mlmodel; path = ../../../Desktop/AnimalImageFinder.mlmodel; sourceTree = "<group>"; };
 		D18FECB72AF1ACFA00CCB736 /* AnimalFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18FECBA2AF1ACFA00CCB736 /* AnimalFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFinderApp.swift; sourceTree = "<group>"; };
 		D18FECBC2AF1ACFA00CCB736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D18FECBE2AF1AD0300CCB736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D18FECC12AF1AD0300CCB736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D18FECC82AF1AE3700CCB736 /* DoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D18FECBC2AF1ACFA00CCB736 /* ContentView.swift */,
 				D18FECBE2AF1AD0300CCB736 /* Assets.xcassets */,
 				D18FECC02AF1AD0300CCB736 /* Preview Content */,
+				D18FECC82AF1AE3700CCB736 /* DoModel.swift */,
+				D18086CB2AF1BCD7009EAC87 /* AnimalImageFinder.mlmodel */,
 			);
 			path = AnimalFinder;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D18FECBD2AF1ACFA00CCB736 /* ContentView.swift in Sources */,
+				D18FECC92AF1AE3700CCB736 /* DoModel.swift in Sources */,
+				D18086CC2AF1BCD8009EAC87 /* AnimalImageFinder.mlmodel in Sources */,
 				D18FECBB2AF1ACFA00CCB736 /* AnimalFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
